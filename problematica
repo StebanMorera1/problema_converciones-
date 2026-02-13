@@ -1,5 +1,7 @@
 import math
 
+#ayudar a las personas a convertir medidas a otras
+
 print ("----bienvenido al convertidor de grados----")
 
 print("1. Fahrenheit \n2. Celsius \n3. Kelvin")
@@ -62,6 +64,7 @@ elif grados == 3:
         respuesta = (( kelvin - 273.15) * 5/9) + 32
 
         print (f"{kelvin} Kelvin en fahrenheit es  {respuesta}")
+
 
 
 
